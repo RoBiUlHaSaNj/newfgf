@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edu AI</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <!-- Logo -->
+    <div class="logo">
+        <img src="WhatsApp Image 2024-11-16 at 13.59.31_bc7add38.jpg" alt="Edu AI Logo">
+    </div>
+    
+    <!-- Title -->
+    <h1 class="title">Edu AI</h1>
+    
+    <!-- Navigation -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="events.html">Event</a></li>
+            <li><a href="technology.html"> technology</a></li>
+        </ul>
+        <!-- Authentication Buttons -->
+        <div class="auth-buttons">
+            <button id="login-btn">Login</button>
+            <button id="signup-btn">Sign Up</button>
+        </div>
+    </nav>
+</header>
+  <div class="content">
+    <div class="left">
+      <img src="97e3bc07ac5ca76150df36be8e142336.gif" alt="Main Image">
+    </div>
+    <div class="right">
+      
+       
+        <h1>Welcome to Edu AI! <span class="emoji">🌟</span></h1>
+        <p>Redefine the way you learn with our AI-powered educational solutions. We’re here to inspire, guide, and empower you every step of the way.</p>
+        
+        <h2>🎓 Education Made Smarter. Dreams Made Achievable.</h2>
+        
+        <p>This is your time to shine! At Edu AI, we turn challenges into opportunities and curiosity into mastery. Together, we’ll break barriers and achieve greatness.</p>
+        
+        <h2 class="highlight">🌟 Think Big. Learn Bold. Grow Limitlessly. 🌟</h2>
+        
+        <p>Join our vibrant community and embark on a journey of knowledge and innovation. The future is yours—let’s conquer it together! <span class="emoji">🚀</span></p>
+        
+        <p>Start today, because <span class="highlight">learning never stops!</span></p>
+        
+        
+    </div>
+  </div>
+
+  <section>
+    <h2>Artificial Intelligence and Museums</h2>
+    <p>Although we do not fully realize it, Artificial Intelligence has become an integral part of our daily lives, and its beneficial applications can also involve the cultural sector. Museums may exploit the increasing availability of big data and AI methods to offer a personalized and innovative experience to their visitors, as well as to improve various aspects of museum management, such as adequate pricing schemes to attract more visitors.</p>
+</section>
+
+
+<div class="containerg">
+    <div class="container">
+        <h2>Our Main Goals</h2>
+    
+        <h3>Make Museums’ Management More Efficient and Profitable</h3>
+        <ul class="goals-list">
+            <li class="goal">
+                <p class="goal-title">Predict Visitor Flows:</p>
+                <p>We are using machine learning algorithms to predict visitor flows on a daily and possibly hourly basis. This tool will improve the museums’ operational and strategic planning, and it will be available to the management through the software "V-PREDICT".</p>
+            </li>
+            <li class="goal">
+                <p class="goal-title">Visitor Tracking:</p>
+                <p>The use of beacon sensors will allow to measure even the duration of visits and track visitors’ itineraries within the city.</p>
+            </li>
+            <li class="goal">
+                <p class="goal-title">Optimizing Pricing and Marketing:</p>
+                <p>The project also analyzes the factors affecting demand for museum services, whose ultimate goal is to optimize pricing and marketing strategies.</p>
+            </li>
+            <li class="goal">
+                <p class="goal-title">Dynamic Museum Card App:</p>
+                <p>Finally, the app I-Muse will allow visitors to buy the museum card and generate dynamic QR codes, thus reducing fraudulent behaviors (passbacks) and waiting times at the museums’ entrances.</p>
+            </li>
+        </ul>
+    
+        <h3>Make Visitors’ Experience More Exciting</h3>
+        <ul class="goals-list">
+            <li class="goal">
+                <p class="goal-title">Interactive Artworks with QR Codes:</p>
+                <p>QR codes will be installed around artworks to create connections among different artworks across museums. Artificial Intelligence will create such connections based on various textual and visual information.</p>
+            </li>
+            <li class="goal">
+                <p class="goal-title">Virtual Museums:</p>
+                <p>Moreover, starting from different keywords (e.g. “climate change”), AI will build a virtual meta-museum which will relate objects belonging to collections from different physical museums, thus giving rise to virtual museums (e.g. the virtual “Museum of climate change”).</p>
+            </li>
+            <li class="goal">
+                <p class="goal-title">Gaming App with Museum Content:</p>
+                <p>Finally, the gaming app LineTime will contain new ad hoc categories related to the museum contents.</p>
+            </li>
+        </ul>
+    
+        <h3>Academic Research</h3>
+        <p>The various data collected through the project will be used to write articles which will be published in academic journals.</p>
+    </div>
+
+
+    <footer>
+      <h3>Follow Us</h3>
+      <ul class="social-links">
+          <li><a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://www.museumof.ai" target="_blank" title="Website"><i class="fas fa-globe"></i></a></li>
+      </ul>
+  
+      <div class="contact-info">
+          <p><strong>Contact Us</strong></p>
+          <p>Email: <a href="mailto:frontdesk@museumof.ai">frontdesk@museumof.ai</a></p>
+          <p>Phone: +1 720 515 7230</p>
+      </div>
+  </footer>
+  
+
+
+    
+
+
+  <!-- Login Form Modal -->
+  <div id="login-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn" id="close-login">&times;</span>
+      <h2>Login</h2>
+      <form>
+        <label>Email:</label>
+        <input type="email" required>
+        <label>Password:</label>
+        <input type="password" id="login-password" required>
+        <button type="button" onclick="togglePassword('login-password')">Show</button>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Signup Form Modal -->
+  <div id="signup-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn" id="close-signup">&times;</span>
+      <h2>Sign Up</h2>
+      <form>
+        <label>First Name:</label>
+        <input type="text" required>
+        <label>Last Name:</label>
+        <input type="text" required>
+        <label>Email:</label>
+        <input type="email" required>
+        <label>Phone No:</label>
+        <input type="tel" required>
+        <label>Password:</label>
+        <input type="password" id="signup-password" required>
+        <button type="button" onclick="togglePassword('signup-password')">Show</button>
+        <label>Confirm Password:</label>
+        <input type="password" id="signup-confirm-password" required>
+        <button type="button" onclick="togglePassword('signup-confirm-password')">Show</button>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
